@@ -1,0 +1,107 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  font-family: "Arial", sans-serif;
+  width: 100vw;
+}
+img {
+  vertical-align: middle;
+}
+header span{
+  font-size: 50px;
+  font-weight: 600;
+  vertical-align: middle;
+  }
+main{
+  background-color: #F6F8F9;
+  margin: 2px;
+}
+section{
+  background-color: #F6F8F9;
+  width: 70%;
+  margin: 0 auto;
+}
+button {
+  height: 25px;
+  border-radius: 5px;
+  background-color: #47ADF1;
+  color: #fff;
+  border: 0;
+}
+button:disabled {
+  height: 25px;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #cecece;
+  border: 1px solid #cecece;
+}
+.strumenti{
+  padding-left: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #fff;
+}
+.task{
+  background-color: #fff;
+}
+.primo-livello{
+  list-style-type: none;
+  font-size: 20px;
+  font-weight: 800;
+}
+.primo-livello:before{
+  content: "\25bc";
+  font-size: 20px;
+}
+.secondo-livello{
+  list-style-type: none;
+  font-size: 18px;
+  font-weight: 400;
+  margin-left: -35px;
+}
+li{
+    padding: 5px;
+}
+.checked:before{
+  font-size: 12px;
+  content: "\2713";
+  border: 1px solid #066303;
+  color: #066303;
+  border-radius: 50%;
+  padding: 1px 3px;
+  margin-right: 10px;
+}
+.unchecked:before{
+  font-size: 12px;
+  content: "\2715";
+  border: 1px solid #f00;
+  color: #f00;
+  border-radius: 50%;
+  padding: 1px 3px;
+  margin-right: 10px;
+}
+.badge{
+  font-size: 10px;
+  border-radius: 10px;
+  color: #fff;
+  padding: 6px;
+}
+.editorial{
+  background-color: #45ABEA;
+}
+.q1goals{
+  background-color: #9C72E4;
+}
+.recruiting{
+  background-color: #64C0A9;
+}
+.mobile{
+  background-color: #F29E33;
+}
+.website{
+  background-color: #D863A1;
+}
+.sales{
+  background-color: #B0C926;
+}

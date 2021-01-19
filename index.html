@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="it" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./assets/css/master.css">
+    <title>Toboolist</title>
+  </head>
+  <body>
+    <!-- header con logo-->
+    <header>
+      <img src="./assets/img/Logo.png" alt="Logo Boolean">
+      <span>Toboolist</span>
+    </header>
+    <main><!-- corpo della pagina-->
+      <br>
+      <br>
+      <br>
+      <section><!-- div container-->
+        <!--barra bottoni-->
+        <div class="strumenti">
+          <button type="button" id="addTask" name="addTask">Add Task</button>
+          <button disabled type="button" id="addSection" name="addSection">Add Section</button>
+        </div>
+        <!--sezione task-->
+        <div class="task">
+          <ul>
+            <li class="primo-livello">
+              New Task
+              <ul class="secondo-livello">
+                <li><span class="checked"></span>Quarterly Newsletter <span class="badge editorial">Editorial</span></li>
+              </ul>
+            </li>
+            <br>
+            <li class="primo-livello">
+              Today
+              <ul class="secondo-livello">
+                <li><span class="checked"></span>Recruiting blog post <span class="badge editorial">Editorial</span></li>
+                <li><span class="checked"></span>Mobile app launch <span class="badge q1goals">Q1 Goals</span></li>
+                <li><span class="unchecked"></span>Inreview John H. <span class="badge recruiting">Recruiting</span></li>
+                <li><span class="checked"></span>Summit update to mobile storefronts <span class="badge mobile">Mobile</span></li>
+              </ul>
+            </li>
+            <br>
+            <li class="primo-livello">
+              Upcoming
+              <ul class="secondo-livello">
+                <li><span class="unchecked"></span>Schedule meeting with Alex</li>
+                <li><span class="checked"></span>Homepage refresh <span class="badge website">Website</span></li>
+                <li><span class="checked"></span>Onboard new Sales team members <span class="badge sales">Sales</span></li>
+                <li><span class="checked"></span>Review editorial calendar <span class="badge editorial">Editorial</span></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <br>
+    </main>
+  </body>
+</html>
